@@ -66,3 +66,6 @@ D:\ASP.NET\OnlineShopWebApi\obj\Debug\OnlineShopWebApi.dll
 D:\ASP.NET\OnlineShopWebApi\obj\Debug\OnlineShopWebApi.pdb
 D:\ASP.NET\OnlineShopWebApi\obj\Debug\OnlineShopWebApi.Migrations.initial.resources
 D:\ASP.NET\OnlineShopWebApi\obj\Debug\OnlineShopWebApi.csproj.GenerateResource.cache
+D:\ASP.NET\OnlineShopWebApi\bin\Swashbuckle.Core.dll
+D:\ASP.NET\OnlineShopWebApi\bin\WebActivatorEx.dll
+D:\ASP.NET\OnlineShopWebApi\obj\Debug\OnlineShopWebApi.Migrations.categories.resources

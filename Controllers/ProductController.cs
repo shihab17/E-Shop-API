@@ -11,7 +11,7 @@ namespace OnlineShopWebApi.Controllers
     public class ProductController : ApiController
     {
         ApplicationDbContext db = new ApplicationDbContext();
-        [HttpPost]
+        [HttpPost]  
         public IHttpActionResult Add([FromBody] Product product)
         {
             db.Products.Add(product);

@@ -13,5 +13,6 @@ namespace OnlineShopWebApi.Models
 
         }
         public DbSet<Product> Products { get; set; }
+        public DbSet<Categories> Categories { get; set; }
     }
 }
