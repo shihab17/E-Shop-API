@@ -9,6 +9,7 @@ namespace OnlineShopWebApi
     {
         public static void Register(HttpConfiguration config)
         {
+            config.Formatters.Remove(config.Formatters.XmlFormatter);
             // Web API configuration and services
 
             // Web API routes
@@ -16,7 +17,7 @@ namespace OnlineShopWebApi
 
             config.Routes.MapHttpRoute(
                 name: "DefaultApi",
-                routeTemplate: "api/{controller}/{id}",
+                routeTemplate: "api/{controller}/{action}/{id}",
                 defaults: new { id = RouteParameter.Optional }
             );
         }
