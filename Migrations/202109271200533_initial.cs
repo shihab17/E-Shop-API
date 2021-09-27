@@ -22,7 +22,7 @@
             
         }
         
-        public override void Down()
+        public override void Down() 
         {
             DropTable("dbo.Products");
         }
