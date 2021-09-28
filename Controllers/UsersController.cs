@@ -94,5 +94,18 @@ namespace OnlineShopWebApi.Controllers
                 }
             }
         }
+        [HttpGet]
+        public IHttpActionResult Login(string username, string password)
+        {
+            var user = db.Users.FirstOrDefault(u => u.username == username && u.password == password);
+            if (user == null)
+            {
+                return BadRequest("Invaild username or password");
+            }
+            else
+            {
+                return Ok("Vaild User");
+            }
+        }
     }
 }
