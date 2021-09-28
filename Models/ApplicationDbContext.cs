@@ -14,5 +14,7 @@ namespace OnlineShopWebApi.Models
         }
         public DbSet<Product> Products { get; set; }
         public DbSet<Categories> Categories { get; set; }
+        public DbSet<Cart> Cart { get; set; }
+        public DbSet<Users> Users { get; set; }
     }
 }
